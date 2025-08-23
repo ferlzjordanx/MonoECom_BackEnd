@@ -1,0 +1,56 @@
+
+
+### VS Code ###
+.vscode/
+
+
+# Build artifacts
+target/
+build/
+*.jar
+*.war
+*.zip
+*.tar.gz
+
+# IDE-specific files
+.apt_generated
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+*.iml
+*.iws
+*.ipr
+
+# Maven/Gradle wrapper files
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.gradle/
+gradlew
+gradlew.bat
+
+# Log files
+*.log
+logs/
+
+# Environment-specific files
+.env
+application*.properties.example
+application*.yml.example
+# Add specific environment files if they contain sensitive data and are not meant for version control
+# e.g., application-dev.properties, application-prod.yml
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*~
+*.swp

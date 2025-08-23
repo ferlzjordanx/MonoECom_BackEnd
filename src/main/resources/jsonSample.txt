@@ -1,0 +1,10 @@
+
+
+{
+    "categoryId": 3,
+    "categoryName":"Bedding"
+}
+{
+    "categoryId": 4,
+    "categoryName":"Kitchen"
+}
